@@ -3,8 +3,8 @@ os.system('git pull')
 os.system("clear")
 print('\033[92;1m Join Whatsapp Group')
 os.system('xdg-open https://chat.whatsapp.com/Ly6r4l7xhy445swHOckKyy')
-fbd=platform.architecture()[0]
-if fbd=="32bit":
+ZOMBIE=platform.architecture()[0]
+if ZOMBIE=="32bit":
     __import__("FB-DEVIL32")
-elif fbd=="64bit":
+elif ZOMBIE=="64bit":
     __import__("NS")
